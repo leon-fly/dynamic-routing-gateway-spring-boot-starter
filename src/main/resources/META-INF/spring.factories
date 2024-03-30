@@ -1,0 +1,6 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.kylins.gateway.router.dynamic.spring.boot.autoconfigure.GatewayRouteConfigInitAutoConfiguration,\
+com.kylins.gateway.router.dynamic.spring.boot.autoconfigure.DynamicRouteServiceImplAutoConfiguration,\
+com.kylins.gateway.router.dynamic.spring.boot.autoconfigure.NacosConfigServiceAutoConfiguration,\
+com.kylins.gateway.router.dynamic.spring.boot.autoconfigure.GatewayRouteConfigPropertiesAutoConfiguration
